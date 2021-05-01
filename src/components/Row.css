@@ -24,13 +24,13 @@
 .title {
   text-align: left;
   font-size: 24px;
-  margin-top: 1vh;
+  margin-top: 2vh;
 }
 
 .description {
   text-align: left;
   font-size: 14px;
-  margin-top: 0.5vh;
+  margin-top: -1vh;
 }
 
 .Border {
