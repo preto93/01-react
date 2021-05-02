@@ -13,6 +13,11 @@ function Row() {
             continuación procederemos a mandar txt falso.
           </p>
         </div>
+        <div className="cb">
+          <button>guardar</button>
+          <button>editar</button>
+          <button>eliminar</button>
+        </div>
       </div>
     </>
   );

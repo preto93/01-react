@@ -1,32 +1,34 @@
 .containerImg {
   background-image: url("../modM.svg");
   background-color: rgb(211, 211, 211);
-  height: 20vh;
+  height: 24vh;
   width: 100vw;
-  z-index: 5;
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  justify-content: space-between;
   align-items: flex-start;
+  align-content: stretch;
   /* border-top: rgba(255, 255, 255, 0.322) solid 30px; */
 }
 
 .ct {
-  margin-left: 26vh;
+  margin-left: 28vh;
   margin-right: 4vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .title {
   text-align: left;
-  font-size: 24px;
+  font-size: 26px;
   margin-top: 2vh;
 }
 
 .description {
   text-align: left;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: -1vh;
 }
 
@@ -38,4 +40,12 @@
     rgba(238, 238, 238, 0.377),
     rgba(32, 32, 32, 0.226)
   );
+}
+.cb {
+  flex-direction: row;
+  margin-left: 28vh;
+}
+
+.cb button {
+  margin: 1vh 2vh 3vh 0vh;
 }

@@ -4,8 +4,6 @@ import Row from "./components/Row";
 function App() {
   return (
     <>
-      {/* <div className="bi"></div> */}
-
       <div className="gc">
         <Row />
         <Row />
