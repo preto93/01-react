@@ -1,12 +1,11 @@
 import React from "react";
-import books from "../modE.svg";
 import "./Row.css";
 
 function Row() {
   return (
     <>
-      <div className="Border"></div>
-      <div className="ContainerImg">
+      <div className="containerImg">
+        <div className="border"></div>
         <div className="ct">
           <h1 className="title">Yo soy un título</h1>
           <p className="description">
@@ -14,7 +13,6 @@ function Row() {
             continuación procederemos a mandar txt falso.
           </p>
         </div>
-        {/* <img src={books} className="Img" alt="books" /> */}
       </div>
     </>
   );

@@ -1,23 +1,16 @@
-.ContainerImg {
+.containerImg {
   background-image: url("../modM.svg");
   background-color: rgb(211, 211, 211);
   height: 20vh;
   width: 100vw;
   z-index: 5;
-  /* aspect-ratio: 3; */
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: left;
   align-items: flex-start;
-  /* border: yellow dashed 10px; */
-  /* margin-top: -1px; */
-  border-top: rgba(255, 255, 255, 0.322) solid 3px;
-}
-
-.Img {
-  border: none;
+  /* border-top: rgba(255, 255, 255, 0.322) solid 30px; */
 }
 
 .ct {
@@ -36,9 +29,9 @@
   margin-top: -1vh;
 }
 
-.Border {
-  height: 0px;
-  width: 30 px;
-  background-color: cornsilk;
-  z-index: -20;
+.border {
+  height: 8px;
+  width: 100%;
+  background-color: rgb(221, 221, 221);
+  opacity: 0.5;
 }
