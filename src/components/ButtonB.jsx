@@ -8,7 +8,7 @@ function Buttons() {
       <div className="btn-group">
         <button className="btn btn-primary btn-sm">editar</button>
         <button className="btn btn-danger btn-sm">eliminar</button>
-        <button className="btn btn-dark btn-sm">devuelto</button>
+        <button className="btn btn-light btn-sm">prestado</button>
       </div>
       {/* </div> */}
     </>

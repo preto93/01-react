@@ -1,6 +1,6 @@
-.containerImg {
+.containerImgB {
   background-image: url("../modM_blueDark.svg");
-  background-color: #103d49;
+  background-color: #0d2e3a;
   height: 24vh;
   width: 100vw;
   background-size: contain;
@@ -13,22 +13,11 @@
 }
 
 .ct {
+  padding-top: 1vh;
   margin-left: 30vh;
   margin-right: 4vh;
   /* margin-top: 1vh; */
   flex-direction: column;
-}
-
-.title {
-  text-align: left;
-  font-size: 4vh;
-  margin-top: 2vh;
-}
-
-.description {
-  text-align: left;
-  font-size: 2.6vh;
-  margin-top: -1vh;
 }
 
 .borders {
@@ -43,9 +32,9 @@
 .cb {
   display: flexbox;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: end;
-  margin-right: 4vh;
+  margin-left: 30vh;
   opacity: 0.8;
   margin-bottom: 1vh;
 }

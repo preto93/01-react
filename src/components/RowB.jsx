@@ -1,16 +1,16 @@
 import React from "react";
-import Buttons from "./Button";
-import "./Row.css";
+import Buttons from "./ButtonB";
+import "./RowB.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function Row() {
+function RowB() {
   return (
     <>
-      <div className="containerImg">
+      <div className="containerImgB">
         <div className="borders"></div>
         <div className="ct">
-          <h2 className="h2 fw-light text-muted">Yo soy un título</h2>
-          <p className="fs-6 fw-light text-muted">
+          <h2 className="h2 fw-light text-white">Yo soy un título</h2>
+          <p className="fs-6 fw-light text-white">
             Aquí vamos a hacer una breve descripción de los libros. A
             continuación procederemos a mandar txt falso.
           </p>
@@ -23,4 +23,4 @@ function Row() {
   );
 }
 
-export default Row;
+export default RowB;
