@@ -15,7 +15,7 @@
   text-align: center;
   font-weight: 500;
   flex: 1;
-  font-size: 0.8rem;
+  font-size: clamp(0.5rem, 1.2vw, 2rem);
   width: 100%;
   margin: 0;
 }

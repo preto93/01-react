@@ -1,7 +1,6 @@
 import React from "react";
 import Buttons from "./Button";
 import "./Row.css";
-// import "bootstrap/dist/css/bootstrap.min.css";
 
 function Row() {
   return (
