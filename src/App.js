@@ -5,15 +5,13 @@ import RowB from "./components/RowB";
 function App() {
   return (
     <>
-      <div className="gc">
-        <RowB />
-        <Row />
-        <Row />
-        <RowB />
-        <RowB />
-        <Row />
-        <Row />
-      </div>
+      <RowB />
+      <Row />
+      <Row />
+      <RowB />
+      <RowB />
+      <Row />
+      <Row />
     </>
   );
 }

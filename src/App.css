@@ -5,9 +5,4 @@ body {
   justify-content: left;
   align-items: flex-start;
   background-color: rgb(241, 241, 241);
-  /* height: 280px; */
-}
-
-.gc {
-  display: flexbox;
 }

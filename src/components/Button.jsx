@@ -1,15 +1,20 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "./Button.css";
 
 function Buttons() {
   return (
     <>
-      {/* <div className="cb"> */}
-      <div className="btn-group">
-        <button className="btn btn-primary btn-sm">editar</button>
-        <button className="btn btn-danger btn-sm">eliminar</button>
-        <button className="btn btn-dark btn-sm">devuelto</button>
-      </div>
+      <>
+        <div className="buttons editar">
+          <p className="text_buttons">editar</p>
+        </div>
+        <div className="buttons eliminar">
+          <p className="text_buttons">eliminar</p>
+        </div>
+        <div className="buttons devuelto">
+          <p className="text_buttons">devuelto</p>
+        </div>
+      </>
       {/* </div> */}
     </>
   );

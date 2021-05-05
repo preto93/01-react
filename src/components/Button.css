@@ -1,0 +1,32 @@
+.buttons {
+  border-radius: 4px;
+  display: flexbox;
+  color: antiquewhite;
+  padding: 0.3rem 0;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 0.6rem;
+}
+
+.text_buttons {
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  flex: 1;
+  font-size: 0.8rem;
+  width: 100%;
+  margin: 0;
+}
+.editar {
+  background-color: #c76f6f;
+}
+
+.eliminar {
+  background-color: #6f8ec7;
+}
+
+.devuelto {
+  background-color: #3e434b;
+}
